@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/python3
 input_string = input()
 
 print('Hello, World.')
