@@ -12,6 +12,8 @@ def checks(N):
         print('Weird')
     elif N%2 == odd:
         print('Not Weird')
+    else:
+        print('Weird')
 
 if __name__ == '__main__':
     N = int(input())
