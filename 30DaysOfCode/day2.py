@@ -1,10 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 def solve(meal_cost, tip_percent, tax_percent):
     tip = meal_cost * (tip_percent/100)
