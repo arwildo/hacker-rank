@@ -1,6 +1,6 @@
 #!/bin/python3
 
-i = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+i = list(range(1, 11))
 
 
 if __name__ == '__main__':
