@@ -12,7 +12,6 @@ class Person(object):
 
     def yearPasses(self):
         self.age += 1
-        print(self.age)
 
     def amIOld(self):
         if self.age < 13:
@@ -23,4 +22,12 @@ class Person(object):
             print("You are old.")
 
 
-Person(int(input())).yearPasses()
+t = int(input())
+for i in range(0, t):
+    age = int(input())
+    p = Person(age)
+    p.amIOld()
+    for j in range(0, 3):
+        p.yearPasses()
+    p.amIOld()
+    print("")
