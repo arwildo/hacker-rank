@@ -19,8 +19,7 @@ def oddStr(s):
 
 T = int(input())
 
-for r in range(0, T):
+for i in range(0, T):
     s = input()
-    print(evenStr(s) + ' ' + oddStr(s))
-
+    print(evenStr(s) + " " + oddStr(s))
     
