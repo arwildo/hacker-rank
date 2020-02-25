@@ -1,5 +1,3 @@
-#!/bin/python3
-
 class Person(object):
     def __init__(self, initialAge):
         self.age = 0 

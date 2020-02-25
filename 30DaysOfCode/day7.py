@@ -9,8 +9,6 @@ if __name__ == '__main__':
     if n == len(arr):
         for i in range(len(arr)-1, -1, -1):
             res += str(arr[i]) + " "
-    else:
-        print("Error: incorrect array size.")
 
 
     print(res)
