@@ -18,7 +18,6 @@ class Solution:
             head.next = Node(data)
         else:
             self.insert(head.next, data)
-
         return head
 
 
@@ -28,5 +27,4 @@ head = None
 for i in range(T):
     data = int(input())
     head = mylist.insert(head, data)
-
-mylist.display(head)
+mylist.display(head);
